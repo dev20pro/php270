@@ -10,115 +10,126 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" media="all" type="text/css" href="css/style.css">
 <!-- Javascript Files -->
-    <script src="js/bootstrap.js"></script>
     <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+
 </head>
 <body>
-<!-- Header Starts Here -->
-<div class='container-fluid'>
-    <header>
-        <div class='row' id='navbar'>
-                <div class='col-sm-4' id='lang'> <!-- sm for screen = or > 768pixels wide -->
-                <div>
-                   <span class="fa fa-square-o">  Choose Language :
-                       <span><img src='images/header/flag-1.png'></span>
-                       <span><img src='images/header/flag-2.png'></span>
-                       <span><img src='images/header/flag-3.png'></span>
-                   </span><br/>
-                   <span class="fa fa-square-o">  Currencies :
-                      <select>
-                         <option value='us'>Us Dollar</option>
-                         <option value='pak'>Pak Rupee</option>
-                         <option value='europian'>Europian Currency</option>
-                      </select>
-                   </span>
-                   </div>
-                </div> <!-- end of col-sm-4 -->
-
-                <div class='col-sm-5' id='top-nav'>
-                    <div>
-                        <span class="fa fa-caret-square-o-right"> Special</span>
-                        <span class="fa fa-caret-square-o-right"> Create an Account</span><br/>
-                        <span class="fa fa-caret-square-o-right"> Search</span>
-                        <span class="fa fa-caret-square-o-right"> Coustomer Login</span><br/>
-                        <span class="fa fa-caret-square-o-right"> Contact Us</span>
-                    </div>
-                </div> <!-- end of col-sm-5 -->
-
-                <div class='col-sm-3' id='cart'>
-                    <div><span><img src='images/header/cart.png'>    Shopping Cart</span><br/>
-                    <span>Now in Your cart <span>5 items</span></span>
-                </div>
-                </div> <!-- end of col-sm-3 -->
-        </div> <!-- end of row -->
-<div id='header-bottom-line' class='row'></div><!-- for the bootom line below navigation -->
-<div id='slider' class='row'><img src='images/slider/slider.png' alt='slider'></div> <!-- div for the slider -->
-
-<!-- navigation menu starts here -->
-
-<nav class="navbar navbar-inverse">
-  <!-- <div class="container"> -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>
-    <div id='menu' class='row'>
-    <div class="collapse navbar-collapse" id="myNavbar">
-    <div class='row nav navbar-nav' id='menu_elem'>
-    <a href='' class='active'><div class='col-sm-2 btn-primary'><span>HOME PAGE</span></div></a>
-    <a href=''> <div class='col-sm-2 btn-primary'><span> PRODUCTS</span></div></a>
-    <a href=''><div class='col-sm-2 btn-primary'><span>SPECIALS</span></div></a>
-    <a href=''><div class='col-sm-2 btn-primary'><span>MY ACCOUNT</span></div></a>
-    <a href=''> <div class='col-sm-2 btn-primary'><span>CONTACT US</span></div></a>
-    <a href=''> <div class='col-sm-2 btn-primary'><span>ABOUT US</span></div></a>
-    </div>
-    </div>
-    <!-- </div> -->
-  </div>
-</nav>
-<div id='header-bottom' class='row'></div>
-<!--***************** end of header *************************-->
-
-<!-- Main body starts here -->
-<div class='row' id='main_body'>
-    <div class='col-sm-3' id='sidebar'>
-        <div>
-            <div></div>
-            <div id='category'><span>CATEGORIES</span></div>
-            <div id='category-list'>
-            <div><span class="fa fa-caret-square-o-right"><a href=''> Desktop</a></span></div><br/>
-            <div><span class="fa fa-caret-square-o-right"><a href=''> Notebooks</a></span></div><br/>
-            <div><span class="fa fa-caret-square-o-right"><a href=''> Tablet PCs</a></span></div><br/>
-            <div><span class="fa fa-caret-square-o-right"><a href=''> Servers</a></span></div><br/>
-            <div><span class="fa fa-caret-square-o-right"><a href=''> Storage</a></span></div><br/>
-            <div><span class="fa fa-caret-square-o-right"><a href=''> Networking</a></span></div><br/>
-            <div><span class="fa fa-caret-square-o-right"><a href=''> Digital Display</a></span></div><br/>
-            <div><span class="fa fa-caret-square-o-right"><a href=''> Digital Cameras</a></span></div><br/>
-            <div><span class="fa fa-caret-square-o-right"><a href=''> Remanufactured</a></span></div><br/>
-            <div><span class="fa fa-caret-square-o-right"><a href=''> Fax Machines</a></span></div><br/>
-
-            </div>
-            <div id='specials'></div>
-            <div id='specials-heading'><span>SPECIALS</span></div>
-        </div>
-    </div> <!-- end of col-sm-4 -->
-    <div class='col-sm-4'>2</div> <!-- end of col-sm-4 -->
-    <div class='col-sm-4'>3</div> <!-- end of col-sm-4 -->
+<div class='container-fluid' id='wrapper'>
+    <!-- header-top starts here -->
+<div class='row' id='header-top'>
+    <div class='col-sm-4 language'>1</div> <!-- end of div with col-sm-4 and class of language -->
+    <div class='col-sm-4 top-menu'>2</div> <!-- end of div with col-sm-4 and class of top-menu -->
+    <div class='col-sm-4 shopping-cart'>3</div> <!-- end of div with col-sm-4 and class of shoping cart -->
 </div>
-<!-- main body ends here -->
-</div>    <!-- class container fluid ends here -->
+    <!-- Header top-ends here  -->
+    <!-- div for border of header-bottom starts here  -->
+<div class='row header-bottom-border'></div>
+    <!-- div for border of header-bottom ends here  -->
+    <!-- Div for slider starts here -->
+<div class='row slider'>1</div>
+    <!-- div for slider ends here -->
+    <!-- Div for navigation bar starts here -->
+<div class='row my-menu'>
+    <div class='menu-top-design'></div> <!-- div for the top color design of the menu -->
+        <nav class='navbar navbar-default'>
+            <!--Start of Div for creating the button for collapsing menu on smaller screens-->
+            <div class='navbar-header'>
+                <button type='button' class='navbar-toggle' data-toggle='collapse' data-target='#my-navbar'>
+                    <span class='icon-bar'></span>
+                    <span class='icon-bar'></span>
+                    <span class='icon-bar'></span>
+                </button>
+            </div>
+            <!--End Of Div for creating the button for collapsing menu on smaller screens-->
+            <div class='collapse navbar-collapse' id='my-navbar'>
+                <ul class='nav navbar-nav'>
+                    <li><a href='#'>HOME PAGE</a></li>
+                    <li><a href='#'>NEW PRODUCTS</a></li>
+                    <li><a href='#'>SPECIALS</a></li>
+                    <li><a href='#'>MY ACCOUNT</a></li>
+                    <li><a href='#'>CONTACT US</a></li>
+                </ul>
+            </div>
+        </nav>
+</div>
+    <!-- Div for navigation bar ends here -->
+    <!-- Div for the body starts here -->
+<div class='row main-body'>
+    <div class='col-sm-4 side-bar'>
+        <div id='side-bar-content'>
+            <div id='categories'>
+             <div id='categories-top-design'></div>
+             <div id='categories-list-items'>1</div>
+            </div>
+            <div id='special'>
+             <div id='special-top-design'></div>
+             <div id='special-list-items'>1</div>
+            </div>
+        </div>
+    </div> <!-- div with col-sm-4 and class of side bar ends here -->
+    <!-- div for displaying the poroducts strats here  -->
+    <div class='col-sm-4' class='products-list'>
+        <div class='product'>
+            <div class='image'></div>
+            <div class='description pull-right'></div>
+            <div class='buttons'>
+                <div class='details'></div>
+                <div class='add-to-cart'></div>
+            </div>
+        </div>
+        <div class='product'>
+            <div class='image'></div>
+            <div class='description pull-right'></div>
+            <div class='buttons'>
+                <div class='details'></div>
+                <div class='add-to-cart'></div>
+            </div>
+        </div>
+        <div class='product'>
+            <div class='image'></div>
+            <div class='description pull-right'></div>
+            <div class='buttons'>
+                <div class='details'></div>
+                <div class='add-to-cart'></div>
+            </div>
+        </div>
+    </div> <!-- div with col-sm-4 and class products ends here -->
+    <div class='col-sm-4' class='products-list'>
+        <div class='product'>
+            <div class='image'></div>
+            <div class='description pull-right'></div>
+            <div class='buttons'>
+                <div class='details'></div>
+                <div class='add-to-cart'></div>
+            </div>
+        </div>
+        <div class='product'>
+            <div class='image'></div>
+            <div class='description pull-right'></div>
+            <div class='buttons'>
+                <div class='details'></div>
+                <div class='add-to-cart'></div>
+            </div>
+        </div>
+        <div class='product'>
+            <div class='image'></div>
+            <div class='description pull-right'></div>
+            <div class='buttons'>
+                <div class='details'></div>
+                <div class='add-to-cart'></div>
+            </div>
+        </div>
+    </div> <!-- div with col-sm-4 and class products ends here -->
+</div>
+    <!-- div for the main body (sidebar and products) ends here -->
+</div><!-- Wrapper div ends here with class container fluid -->
 
-
-
-
-<!-- here we have the jquery file -->
-              <script
-			  src="https://code.jquery.com/jquery-3.3.1.min.js"
-			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-			  crossorigin="anonymous"></script>
+<!-- div with class container for the footer strats here  -->
+<div class='container' id='footer'>
+    1
+</div>
+<!-- div for the footer ends here  -->
 
 </body>
 </html>

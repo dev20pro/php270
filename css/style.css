@@ -45,180 +45,132 @@ table {
 }
 
 /* ---------------------------------------------- css reset ends here ------------------------------------------*/
-body{
-    /* background-color:grey; */
-    /* color:white; */
-    font-size: 12px;
-    font-family: 'Tahoma';
-    font-weight:bold;
+.language{
+    background-color:red;    /*Remove*/
 }
-select{
-    color: black;
+.top-menu{
+    background-color:green;   /*Remove*/
 }
-/* ---------------------------------------------- Header Starts here ------------------------------------------*/
-header{
-    color: white;
+.shopping-cart{
+    background-color:yellow;  /*Remove*/
 }
-#lang, #top-nav, #cart{
-    height:90px;
+.header-bottom-border{
+margin-top:1px;
+border-top:1px solid black;
+height:4px;
+border-bottom:1px solid black;
+margin-bottom:1px;
 }
-#lang{
-    background-color:#006295;
+.slider{
+    background-color:pink; /*remove*/
 }
-#lang img{
-    cursor:pointer;
+div .my-menu{
+    border:1px solid black;
 }
-#lang div{
-    margin-left:11%;
+.menu-top-design{
+    height:4px;
+    background-color:#005DBA;
 }
-#lang div>span{
-    padding-top:15px;
-    padding-left:10px;
-}
-#top-nav span{
-    padding-top:10px;
-}
-#top-nav{
-    background-color:#002754;
-}
-#top-nav span{
-    margin-left:10%;
-    cursor:pointer;
-}
-#top-nav span:nth-of-type(2), span:nth-of-type(4){
-float:right;
-margin-right:10%;
-}
-#top-nav  span:nth-of-type(4){
-    margin-right:10.8%;
+.navbar-default{
+    background-color:#008FD3;
+    border-radius:0px;
+    margin-bottom:0px;
+    border:none;
 
 }
-#cart{
-    background-color:#006295;
+.my-menu .navbar-nav li{
+    /* border-right:1px solid black; */
 }
-#cart div{
-    padding-top:15px;
-    margin-left: 10%;
-    cursor:pointer;
+.my-menu .navbar-nav li:last-of-type{
+    /* border-right:none; */
 }
-#cart img{
-    width:40px;
-    height:30px;
-}
-#cart span>span{
-    color: #F6EF43;
-
-}
-#header-bottom-line{
-    height:7px;
-    margin-top:1px;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    margin-bottom:1px;
-
-
-}
-#header-bottom-line>div{
-    height:7px;
-
-
-}
-#slider img{
-width:100%;
+.my-menu .navbar-nav li a {
+    color:white;
 }
 
-#menu{
-    height:38px;
-    background-color:#006BC4;
-}
-#menu >div:first-of-type{
-    height:5px;
-    background-color:#005BB9;
-}
-#menu_elem{
-    cursor:pointer;
-
-}
-.btn-primary{
-    padding-left:30px;
-    background-color:#006BC4;
-    height:38px;
-    border-right:1px solid #fff;
-}
-.btn-primary:last-of-type{
-    border-right:none;
-}
-#header-bottom{
+/* ---------------------------------------------- Header reset ends here ------------------------------------------*/
+/* ---------------------------------------------- main body starts here  ------------------------------------------*/
+.main-body{
     border-top:1px solid black;
     margin-top:2px;
+    border-bottom:3px solid #6A80A5;
 }
-.navbar-header, .navbar, .navbar-inverse  {
-    background-color:#fff;
-    border:none;
-    border-radius:0;
-    min-height: 0;
-    margin-bottom:0px;
-    vertical-align: middle;
-
+.main-body>div{
+    margin-bottom:6px;
 }
-.navbar-inverse, #myNavbar{
-margin-right:0px;
-margin-left:0px;
+/* ---------------------------------------------- main body ends here  ------------------------------------------*/
+/* ---------------------------------------------- side bar starts here ------------------------------------------*/
+#side-bar-content{
+    border: 1px solid #6A80A5;
+    margin-top:10px;
 }
-.nav, .navbar-nav {
-    height:0px;
-    width:100%;
-}
-
-/* ****************************************************** Header ends here  *********************************************************/
-/* ****************************************************** Body starts here  *********************************************************/
-#main_body{
-    /* height:402px; */
-    border-bottom:3px solid #6479A0;
-}
-/* ****************************************************** Side Bar starts here  *********************************************************/
-#sidebar>div{
-    border:1px solid #5D6B84;
-    margin-top:5px;
-}
-#sidebar>div > div:first-of-type{
+#categories-top-design{
     height:4px;
-    background-color: #3CB02A;
+    background-color: #3BB129;
 }
-#sidebar>div>div:nth-of-type(2){
-    height:27px;
-    background-color: #61CF49;
-    /*  */
+#categories-list-items{
+    background-color:#89E169;
 }
-#category span{
-    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
-    text-align:center;
-}
-
-#sidebar>div div:nth-of-type(3) div{
-clear:both;
-height:15px;
-width:135px;
-border-bottom: 1px dotted black;
-margin-left:15%;
-}
-#sidebar>div div:nth-of-type(3) div a{
-color:#00234D;
-font-weight:bold;
-font-size:12px;
-}
-#sidebar>div div:nth-of-type(3) div:first-of-type{
+#special{
     margin-top:25px;
 }
-#specials{
+#special-top-design{
     height:4px;
-    background-color:#22A2E8;
-    margin-top:35px;
+    background-color: #22A1E6;
 }
-#specials-heading{
-    height:27px;
-    background-color: #51D1F4;
+#special-list-items{
+    background-color:#6FE4F8;
 }
 
+/* ---------------------------------------------- side bar ends here ------------------------------------------*/
+/* ---------------------------------------------- products starts here  ------------------------------------------*/
+.product{
+    position:relative;
+    border: 1px solid #6A80A5;
+    margin-top:10px;
+}
+.image, .description{
+    height:80px; /*remove */
+    width:80px; /*remove */
+    background-color:red; /*remove */
+    margin:4px; /*correct*/
+    border: 1px solid #6A80A5;
+    border-radius:2px;
+}
+.description{
+    position:absolute;
+    width:120px;
+    background-color:pink; /*pink*/
+    top:0px;
+    right:0px;
+    border:none;
+    border-radius:0;
+}
+.buttons{
+    margin:4px;
+    border: 1px solid #6A80A5;
+    border-radius:2px;
+    position:relative;
+}
+.details, .add-to-cart{
+    height:8px;
+    margin:2px;
+    width:50%;
+    background-color:#3064C9;
 
+}
+.add-to-cart{
+    background-color:#1B930D;
+    right:0;
+    position:absolute;
+    top:0;
+}
 
+/* ---------------------------------------------- products ends here  ------------------------------------------*/
+/* ---------------------------------------------- footer starts here ------------------------------------------*/
+
+#footer{
+    background-color:cyan; /*remove*/
+    margin-top:10px;
+}
+/* ---------------------------------------------- footer ends here ------------------------------------------*/
