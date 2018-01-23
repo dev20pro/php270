@@ -1,0 +1,224 @@
+/* -------------------------------------- css reset ----------------------------------------------*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ---------------------------------------------- css reset ends here ------------------------------------------*/
+body{
+    /* background-color:grey; */
+    /* color:white; */
+    font-size: 12px;
+    font-family: 'Tahoma';
+    font-weight:bold;
+}
+select{
+    color: black;
+}
+/* ---------------------------------------------- Header Starts here ------------------------------------------*/
+header{
+    color: white;
+}
+#lang, #top-nav, #cart{
+    height:90px;
+}
+#lang{
+    background-color:#006295;
+}
+#lang img{
+    cursor:pointer;
+}
+#lang div{
+    margin-left:11%;
+}
+#lang div>span{
+    padding-top:15px;
+    padding-left:10px;
+}
+#top-nav span{
+    padding-top:10px;
+}
+#top-nav{
+    background-color:#002754;
+}
+#top-nav span{
+    margin-left:10%;
+    cursor:pointer;
+}
+#top-nav span:nth-of-type(2), span:nth-of-type(4){
+float:right;
+margin-right:10%;
+}
+#top-nav  span:nth-of-type(4){
+    margin-right:10.8%;
+
+}
+#cart{
+    background-color:#006295;
+}
+#cart div{
+    padding-top:15px;
+    margin-left: 10%;
+    cursor:pointer;
+}
+#cart img{
+    width:40px;
+    height:30px;
+}
+#cart span>span{
+    color: #F6EF43;
+
+}
+#header-bottom-line{
+    height:7px;
+    margin-top:1px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-bottom:1px;
+
+
+}
+#header-bottom-line>div{
+    height:7px;
+
+
+}
+#slider img{
+width:100%;
+}
+
+#menu{
+    height:38px;
+    background-color:#006BC4;
+}
+#menu >div:first-of-type{
+    height:5px;
+    background-color:#005BB9;
+}
+#menu_elem{
+    cursor:pointer;
+
+}
+.btn-primary{
+    padding-left:30px;
+    background-color:#006BC4;
+    height:38px;
+    border-right:1px solid #fff;
+}
+.btn-primary:last-of-type{
+    border-right:none;
+}
+#header-bottom{
+    border-top:1px solid black;
+    margin-top:2px;
+}
+.navbar-header, .navbar, .navbar-inverse  {
+    background-color:#fff;
+    border:none;
+    border-radius:0;
+    min-height: 0;
+    margin-bottom:0px;
+    vertical-align: middle;
+
+}
+.navbar-inverse, #myNavbar{
+margin-right:0px;
+margin-left:0px;
+}
+.nav, .navbar-nav {
+    height:0px;
+    width:100%;
+}
+
+/* ****************************************************** Header ends here  *********************************************************/
+/* ****************************************************** Body starts here  *********************************************************/
+#main_body{
+    /* height:402px; */
+    border-bottom:3px solid #6479A0;
+}
+/* ****************************************************** Side Bar starts here  *********************************************************/
+#sidebar>div{
+    border:1px solid #5D6B84;
+    margin-top:5px;
+}
+#sidebar>div > div:first-of-type{
+    height:4px;
+    background-color: #3CB02A;
+}
+#sidebar>div>div:nth-of-type(2){
+    height:27px;
+    background-color: #61CF49;
+    /*  */
+}
+#category span{
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
+    text-align:center;
+}
+
+#sidebar>div div:nth-of-type(3) div{
+clear:both;
+height:15px;
+width:135px;
+border-bottom: 1px dotted black;
+margin-left:15%;
+}
+#sidebar>div div:nth-of-type(3) div a{
+color:#00234D;
+font-weight:bold;
+font-size:12px;
+}
+#sidebar>div div:nth-of-type(3) div:first-of-type{
+    margin-top:25px;
+}
+#specials{
+    height:4px;
+    background-color:#22A2E8;
+    margin-top:35px;
+}
+#specials-heading{
+    height:27px;
+    background-color: #51D1F4;
+}
+
+
+
