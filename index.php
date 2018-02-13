@@ -18,21 +18,7 @@
 <div class='container-fluid' id='wrapper'>
     <!-- header-top starts here -->
 <div class='row' id='header-top'>
-    <div class='col-sm-4 language'>1</div> <!-- end of div with col-sm-4 and class of language -->
-    <div class='col-sm-4 top-menu'>2</div> <!-- end of div with col-sm-4 and class of top-menu -->
-    <div class='col-sm-4 shopping-cart'>3</div> <!-- end of div with col-sm-4 and class of shoping cart -->
-</div>
-    <!-- Header top-ends here  -->
-    <!-- div for border of header-bottom starts here  -->
-<div class='row header-bottom-border'></div>
-    <!-- div for border of header-bottom ends here  -->
-    <!-- Div for slider starts here -->
-<div class='row slider'>1</div>
-    <!-- div for slider ends here -->
-    <!-- Div for navigation bar starts here -->
-<div class='row my-menu'>
-    <div class='menu-top-design'></div> <!-- div for the top color design of the menu -->
-        <nav class='navbar navbar-default'>
+   <nav class='navbar navbar-default'>
             <!--Start of Div for creating the button for collapsing menu on smaller screens-->
             <div class='navbar-header'>
                 <button type='button' class='navbar-toggle' data-toggle='collapse' data-target='#my-navbar'>
@@ -43,6 +29,20 @@
             </div>
             <!--End Of Div for creating the button for collapsing menu on smaller screens-->
             <div class='collapse navbar-collapse' id='my-navbar'>
+                <div class='row'>
+                <div class='col-sm-4'>1</div>
+                <div class='col-sm-4'>2</div>
+                <div class='col-sm-4'>3</div>
+            </div>
+                <!-- div for border of header-bottom starts here  -->
+                <div class='row header-bottom-border'></div>
+                    <!-- div for border of header-bottom ends here  -->
+                    <!-- Div for slider starts here -->
+                <div class='row slider'><img src='images/slider/slider.png'></div>
+                    <!-- div for slider ends here -->
+                    <!-- Div for navigation bar starts here -->
+                <div class='row my-menu'>
+                <div class='menu-top-design'></div> <!-- div for the top color design of the menu -->
                 <ul class='nav navbar-nav'>
                     <li><a href='#'>HOME PAGE</a></li>
                     <li><a href='#'>NEW PRODUCTS</a></li>
@@ -51,8 +51,9 @@
                     <li><a href='#'>CONTACT US</a></li>
                 </ul>
             </div>
-        </nav>
+        </nav> <!-- end of div with col-sm-4 and class of shoping cart -->
 </div>
+    <!-- Header top-ends here  -->
     <!-- Div for navigation bar ends here -->
     <!-- Div for the body starts here -->
 <div class='row main-body'>

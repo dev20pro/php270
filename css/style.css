@@ -62,7 +62,7 @@ border-bottom:1px solid black;
 margin-bottom:1px;
 }
 .slider{
-    background-color:pink; /*remove*/
+    /*background-color:pink;*/ /*remove*/
 }
 div .my-menu{
     border:1px solid black;
