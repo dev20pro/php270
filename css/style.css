@@ -61,8 +61,8 @@ height:4px;
 border-bottom:1px solid black;
 margin-bottom:1px;
 }
-.slider{
-    /*background-color:pink;*/ /*remove*/
+.slider>img{
+    width:100%;
 }
 div .my-menu{
     border:1px solid black;
